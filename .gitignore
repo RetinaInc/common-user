@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 /.gradle
 /bin
+=======
+*~
+.gradle
+build
+>>>>>>> f922ad9726a2c637bb14235e35552973bb04b35a
