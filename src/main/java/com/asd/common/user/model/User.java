@@ -24,6 +24,15 @@ public class User {
 	private String firstName;
 	private String lastName;
 	private String email;
+	private Boolean enabled;
+
+	public Boolean getEnabled() {
+		return enabled;
+	}
+
+	public void setEnabled(Boolean enabled) {
+		this.enabled = enabled;
+	}
 
 	public String getFirstName() {
 		return firstName;
