@@ -1,7 +1,7 @@
 package com.asd.common.user.model;
 
 /*
- *   Common User Java Available From
+ *   Common User Available From
  *   https://github.com/appliedsd/common-user
  *
  *   Copyright 2013 Applied Software Design, LLC
