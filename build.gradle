@@ -20,4 +20,6 @@
 // Employs common-gradle from: https://github.com/appliedsd/common-gradle
 apply from: '../common-gradle/build.gradle'
 
-
+dependencies {
+	compile 'org.springframework:spring-webmvc:3.2.4.RELEASE'
+}
