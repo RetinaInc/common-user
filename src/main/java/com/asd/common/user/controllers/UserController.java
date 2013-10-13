@@ -21,8 +21,19 @@ package com.asd.common.user.controllers;
 
 import org.springframework.stereotype.Controller;
 
+import com.asd.common.user.dao.UserDao;
+
 @Controller
 public class UserController {
 
-	
+	private UserDao userDao;
+
+	public UserDao getUserDao() {
+		return userDao;
+	}
+
+	public void setUserDao(UserDao userDao) {
+		this.userDao = userDao;
+	}
+
 }
