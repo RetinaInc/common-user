@@ -19,6 +19,15 @@
  */
 package com.asd.common.user.dao;
 
+import com.asd.common.user.model.User;
+
 public interface UserDao {
 
+	User getUser(Integer userId);
+
+	void saveUser(User user);
+
+	void setUserPassword(Integer userId, String password);
+
+	Boolean isUserPasswordCorrect(Integer userId, String password);
 }
